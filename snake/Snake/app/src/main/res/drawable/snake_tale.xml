@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#00FF00"/> <!-- Warna ekor ular -->
+           <!-- Sudut bulat 5dp di bagian bawah -->
+            <corners android:radius="500dp"/>
+        </shape>
+    </item>
+</selector>
